@@ -24,9 +24,6 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\ToastNotificationAvalonia\ToastNotificationAvalonia.csproj" />
+        <PackageReference Include="ToastNotificationAvalonia" Version="1.0.0" />
     </ItemGroup>
 </Project>

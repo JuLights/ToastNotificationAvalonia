@@ -77,12 +77,6 @@ public MainWindow()
     ...
     ToastManager.Initialize(ToastContainer);
 }
-
-public async Task ShowToastAsync()
-{
-    // Show the toast notification asynchronously
-    await ToastManager.ShowToastAsync(new MyToast());
-}
 ```
 
 ```csharp
