@@ -85,3 +85,13 @@ public async Task ShowToastAsync()
 }
 ```
 
+```csharp
+public partial class MainWindowViewModel : ViewModelBase
+{
+    [RelayCommand]
+    private async Task ShowToast()
+    {
+        await ToastManager.ShowToastAsync(new MyToast());
+    }
+}
+```
