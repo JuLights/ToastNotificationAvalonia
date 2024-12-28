@@ -5,6 +5,15 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>ToastNotificationAvalonia</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>David Jugeli</Authors>
+        <Description>using this library you can raise toast notifications in AvaloniaUI v11.1.0</Description>
+        <PackageTags>class, library, toast, notifications</PackageTags>
+        <RepositoryUrl>https://github.com/JuLights/ToastNotificationAvalonia</RepositoryUrl>
+    </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Avalonia" Version="11.1.0" />
