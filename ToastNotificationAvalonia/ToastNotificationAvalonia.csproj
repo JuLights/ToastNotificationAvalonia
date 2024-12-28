@@ -13,7 +13,14 @@
         <Description>using this library you can raise toast notifications in AvaloniaUI v11.1.0</Description>
         <PackageTags>class, library, toast, notifications</PackageTags>
         <RepositoryUrl>https://github.com/JuLights/ToastNotificationAvalonia</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Avalonia" Version="11.1.0" />
